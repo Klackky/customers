@@ -15,7 +15,7 @@ const Company = sequelize.define('companies', {
   description: {
     type: Sequelize.STRING,
     field: 'description',
-    allowNull: false
+    allowNull: true
   }
 })
 
